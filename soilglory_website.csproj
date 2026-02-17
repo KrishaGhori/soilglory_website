@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="admin_add.aspx" />
     <Content Include="admin_home.aspx" />
     <Content Include="App_Data\soilglory_DB.mdf" />
     <Content Include="App_Data\soilglory_DB_log.ldf">
@@ -76,6 +77,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="admin_add.aspx.cs">
+      <DependentUpon>admin_add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_add.aspx.designer.cs">
+      <DependentUpon>admin_add.aspx</DependentUpon>
+    </Compile>
     <Compile Include="admin_home.aspx.cs">
       <DependentUpon>admin_home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
