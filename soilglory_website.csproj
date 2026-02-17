@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="admin_add.aspx" />
     <Content Include="admin_home.aspx" />
+    <Content Include="admin_update_form.aspx" />
     <Content Include="App_Data\soilglory_DB.mdf" />
     <Content Include="App_Data\soilglory_DB_log.ldf">
       <DependentUpon>soilglory_DB.mdf</DependentUpon>
@@ -90,6 +91,13 @@
     </Compile>
     <Compile Include="admin_home.aspx.designer.cs">
       <DependentUpon>admin_home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_update_form.aspx.cs">
+      <DependentUpon>admin_update_form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_update_form.aspx.designer.cs">
+      <DependentUpon>admin_update_form.aspx</DependentUpon>
     </Compile>
     <Compile Include="home.aspx.cs">
       <DependentUpon>home.aspx</DependentUpon>
