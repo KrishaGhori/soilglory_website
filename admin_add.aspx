@@ -6,49 +6,55 @@
 <head runat="server">
     <title></title>
     <style>
-    body {
-        background-color: rgb(255,249,240);
-        font-family: Arial;
-    }
+        body {
+            background-color: rgb(255,249,240);
+            font-family: Arial;
+        }
 
-    .container {
-        width: 500px;
-        margin: 60px auto;
-        padding: 30px;
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 0px 0px 8px #19341e;
-    }
+        .container {
+            width: 500px;
+            margin: 60px auto;
+            padding: 30px;
+            background-color: #19341e; /* Opposite color */
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #19341e;
+        }
 
-    h2 {
-        text-align: center;
-        color: #19341e;
-    }
+        h2 {
+            text-align: center;
+            color: rgb(255,249,240);
+        }
 
-    .labelStyle {
-        color: #19341e;
-        font-weight: bold;
-    }
+        .labelStyle {
+            color: rgb(255,249,240);
+            font-weight: bold;
+        }
 
-    .inputStyle {
-        width: 100%;
-        padding: 8px;
-        margin-bottom: 15px;
-        border: 1px solid #19341e;
-        border-radius: 5px;
-    }
+        .inputStyle {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(255,249,240);
+            color: #19341e;
+        }
 
-    .btnStyle {
-        width: 100%;
-        padding: 10px;
-        background-color: #19341e;
-        color: rgb(255,249,240);
-        border: none;
-        border-radius: 5px;
-        font-size: 15px;
-        cursor: pointer;
-    }
-</style>
+        .btnStyle {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(255,249,240);
+            color: #19341e;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .btnStyle:hover {
+            opacity: 0.9;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
